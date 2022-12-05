@@ -226,7 +226,8 @@ a {
   margin-right: 135px;
  
 }
-span {
+.process-content-anchor {
+  color: #000000;
   text-decoration: underline;
 }
 .margin{
@@ -322,6 +323,66 @@ span {
 .commentary-photo {
   padding: 58px 0 105px 85px;
 }
+/* Managment */
+.managment {
+  background: #DABC98;
+}
+
+.managment-content img {
+  padding: 89px 67px 84px 0;
+}
+.managment-content h4 {
+  padding: 116px 0 111px 0;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: left;
+}
+.managment-img {
+  
+}
+.managment-img-content {
+  padding: 0 70px 0 71px;
+}
+
+.managment-company {
+  padding-top: 109px;
+}
+.managment-star {
+  padding: 20px 0 14px 0;
+}
+.managment-img p {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+}
+
+/*  */
+.content-integrate {
+  align-items: center;
+}
+
+.content-integrate h2 {
+  max-width: 791px;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 169px;
+  align-items: center;
+}
+
+.content-integrate p {
+  max-width: 539px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.content-integrate button {
+  margin-top: 32px;
+}
+
+
 
 
 
