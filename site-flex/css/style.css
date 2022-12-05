@@ -358,28 +358,61 @@ a {
 
 /*  */
 .content-integrate {
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .content-integrate h2 {
-  max-width: 791px;
+  width: 791px;
   font-size: 65px;
   line-height: 75px;
   text-align: center;
-  margin-top: 169px;
-  align-items: center;
+  margin: 169px 250px 0 249px;
 }
 
 .content-integrate p {
-  max-width: 539px;
+  width: 539px;
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-  margin-bottom: 25px;
+  margin: 0 376px 25px 375px;
+}
+
+.content-integrate img {
+  margin-left: 134px;
 }
 
 .content-integrate button {
-  margin-top: 32px;
+  font-size: 16px;
+  line-height: 60px;
+  margin: 32px 548px 160px 548px;
+}
+
+/* Buy */
+.buy {
+background: #FF9C7D;
+}
+
+.buy h2 {
+  padding: 161px 253px 29px 253px ;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.buy p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 426px 54px 426px;
+
+}
+
+.buy button {
+  margin:0 565px 121px 565px;
+  background-color: #000000;
+  border: #000000;
 }
 
 
