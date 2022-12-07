@@ -193,10 +193,9 @@ a {
   margin-bottom: 150px;
 }
 .process-content h2 {
-  margin-top: 151px;
   margin-bottom: 30px;
   margin-right: 165px;
-}
+} 
 .process-content p {
   font-size: 20px;
   line-height: 30px;
@@ -205,7 +204,6 @@ a {
 }
 
 .process-content2 h2 {
-  margin-top: 151px;
   margin-bottom: 25px;
   margin-left: 138px;
 }
@@ -224,9 +222,7 @@ a {
   margin-right: 0;
  
 }
-.process-content.block-3 h2 {
-  margin-top: 160px;
-}
+
 .process-content.block-3 p {
   margin-right: 135px;
  
@@ -250,6 +246,9 @@ a {
 }
 .cards {
   flex-wrap: wrap;
+}
+.card h4 {
+  text-align: center;
 }
 .card-text {
   width: 330px;
@@ -332,18 +331,17 @@ a {
 .managment {
   background: #DABC98;
 }
-.managment-content-text {
-  height: 168px;
-  border-right: 1px solid black;
-}
+
 .managment-content img {
   padding: 89px 67px 84px 0;
 }
 .managment-content h4 {
-  padding: 116px 0 111px 0;
+  padding-top: 47px;
   font-size: 35px;
   line-height: 50px;
   text-align: left;
+  height: 168px;
+  border-right: 1px solid black;
 }
 .managment-img {
   
