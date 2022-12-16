@@ -16,3 +16,16 @@
   .commentary-photo {
     padding: 58px 0 105px 85px;
   }
+
+  @media (max-width: 768px) {
+    .commentary {
+      margin-top: 50px;
+    }
+    .commentary .container {
+      flex-direction: column;
+    }
+    .commentary-photo {
+      padding: 58px 0 105px 0px;
+      text-align: center;
+    }
+  }
