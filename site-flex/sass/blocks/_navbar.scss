@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav{
+    margin-bottom: 24px;
+} 
+.navbar-link {
+    padding: 8px 0 12px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+}
+.navbar-list li:not(:last-child) {
+    margin-right: 42px;
+}
+  
+.navbar-list {
+    margin-left: 51px;
+}
+
+.buttons button:first-of-type {
+    margin-right: 10px;
+}
+//   Tablet
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navbar img {
+        padding-bottom: 20px;
+    }
+    .navbar-list {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .navbar-list li {
+        padding-top: 10px;
+    }
+}
+
+// Desktop 
+@media (max-width: 991px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .buttons {
+        margin-top: 20px;
+    }
+}

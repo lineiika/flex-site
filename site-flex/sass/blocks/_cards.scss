@@ -1,0 +1,39 @@
+.cards-section {
+    background: #FFF8E4;
+    padding-bottom: 150px;
+  }
+  .card-title {
+    text-align: center;
+    padding: 120px 0 58px 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .card h4 {
+    text-align: center;
+  }
+  .card-text {
+    width: 330px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 24px 0 25px 0;
+  }
+  
+  .card img {
+    padding: 21px 85px 23px 85px;
+  }
+  
+  .cards:nth-child(1n) {
+    padding-left: 40px;
+  }
+  
+  .card:nth-child(3n) {
+    padding-right: 40px;
+  }
+  
+  .padding-bottom {
+    padding-bottom: 57px;
+  }
+  

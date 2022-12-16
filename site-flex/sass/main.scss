@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Graphik-Semibold';
+    src: local('Graphik Semi bold'), local('Graphik-Semi-bold'),
+      url('../fonts/Graphik-Semibold.woff2') format('woff2'),
+      url('../fonts/Graphik-Semibold.woff') format('woff'),
+      url('../fonts/Graphik-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Graphik-Regular';
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+      url('../fonts/Graphik-Regular.woff2') format('woff2'),
+      url('../fonts/Graphik-Regular.woff') format('woff'),
+      url('../fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  @import 'variables';
+  @import 'base/base';
+  @import 'layout/layout';
+  /* Navbar */
+  @import 'blocks/navbar';
+  /* section1 */
+  @import 'blocks/section1';
+  /* section2 */
+  @import 'blocks/section2';
+  /* section3 */
+  @import 'blocks/section3';
+  /* Cards */
+  @import 'blocks/cards';
+  /* Card-2 */
+  @import 'blocks/card-2';
+  /* Commentary */
+  @import 'blocks/commentary';
+  /* Managment */
+  @import 'blocks/managment';
+  /* Integrate */
+  @import 'blocks/integrate';
+  /* Buy */
+  @import 'blocks/buy';
+  /* footer */
+  @import 'blocks/footer';
+  
