@@ -55,6 +55,11 @@
       flex-direction: column-reverse;
       gap: 30px;
     }
+    .process-tablet2 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
     .process-content h2 {
       margin-right: auto;
       text-align: center;
@@ -67,13 +72,18 @@
     }
     .process-content2 h2 {
       margin-left: auto;
+      text-align: center;
     }
     .process-content2 p {
       margin-left: auto;
     }
     .process-content2 .btn-black {
-      margin-bottom: auto;
+      margin-left: auto;
     }
+    .process-content.block-3 p {
+      margin-right: auto;
+    }
+     
     .margin {
       margin-bottom: 50px;
     }

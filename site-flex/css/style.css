@@ -180,7 +180,7 @@ a {
 }
 
 .content-title {
-  font-family: "Graphik-Regular";
+  font-family: "Graphik-Semibold";
   font-size: 65px;
   line-height: 70px;
   margin-bottom: 51px;
@@ -321,6 +321,11 @@ a {
     flex-direction: column-reverse;
     gap: 30px;
   }
+  .process-tablet2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
   .process-content h2 {
     margin-right: auto;
     text-align: center;
@@ -333,12 +338,16 @@ a {
   }
   .process-content2 h2 {
     margin-left: auto;
+    text-align: center;
   }
   .process-content2 p {
     margin-left: auto;
   }
   .process-content2 .btn-black {
-    margin-bottom: auto;
+    margin-left: auto;
+  }
+  .process-content.block-3 p {
+    margin-right: auto;
   }
   .margin {
     margin-bottom: 50px;
@@ -388,6 +397,22 @@ a {
   padding-bottom: 57px;
 }
 
+@media (max-width: 768px) {
+  .cards:nth-child(1n) {
+    padding-left: 0px;
+  }
+  .card:nth-child(3n) {
+    padding-right: 0px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: auto;
+    text-align: center;
+  }
+}
 /* Card-2 */
 .card-title-2 {
   margin: 154px 0 25px 0;
