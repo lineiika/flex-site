@@ -29,3 +29,34 @@
     line-height: 25px;
     letter-spacing: 0.75px;
   }
+
+  @media (max-width: 768px) {
+    .managment .container {
+      flex-direction: column;
+    }
+
+    .managment-img {
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+    }
+
+    .managment-img-content {
+      max-width: 248px;
+      padding: 0px;
+      text-align: center;
+    }
+    .managment-content {
+     flex-direction: column-reverse;
+    }
+    .managment-content img {
+      padding: 89px 0px 84px 0;
+    }
+
+    .managment-content h4 {
+      border-right: none;
+      text-align: center;
+    }
+    .managment-company {
+      padding-top: 0px;
+    }
+  }

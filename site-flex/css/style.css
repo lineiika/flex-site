@@ -412,6 +412,9 @@ a {
     width: auto;
     text-align: center;
   }
+  .cards-section {
+    padding-bottom: 50px;
+  }
 }
 /* Card-2 */
 .card-title-2 {
@@ -535,6 +538,33 @@ a {
   letter-spacing: 0.75px;
 }
 
+@media (max-width: 768px) {
+  .managment .container {
+    flex-direction: column;
+  }
+  .managment-img {
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .managment-img-content {
+    max-width: 248px;
+    padding: 0px;
+    text-align: center;
+  }
+  .managment-content {
+    flex-direction: column-reverse;
+  }
+  .managment-content img {
+    padding: 89px 0px 84px 0;
+  }
+  .managment-content h4 {
+    border-right: none;
+    text-align: center;
+  }
+  .managment-company {
+    padding-top: 0px;
+  }
+}
 /* Integrate */
 .content-integrate {
   justify-content: center;
@@ -568,6 +598,31 @@ a {
   margin: 32px 548px 160px 548px;
 }
 
+@media (max-width: 768px) {
+  .content-integrate img {
+    width: 100%;
+    margin-left: auto;
+  }
+  .content-integrate {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-integrate h2 {
+    width: auto;
+    text-align: center;
+    margin: 50px 0px 0 0px;
+  }
+  .content-integrate p {
+    width: auto;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+  }
+  .content-integrate button {
+    font-size: 16px;
+    line-height: 60px;
+    margin: 32px 0 50px 0;
+  }
+}
 /* Buy */
 .buy {
   background: #FF9C7D;
