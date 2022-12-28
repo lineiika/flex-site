@@ -23,6 +23,16 @@ a {
 .buttons button:first-of-type {
     margin-right: 10px;
 }
+// Desktop 
+@media (max-width: 1200px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+}
 //   Tablet
 @media (max-width: 768px) {
     .navbar {
@@ -47,14 +57,3 @@ a {
     }
 }
 
-// Desktop 
-@media (max-width: 991px) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .buttons {
-        margin-top: 20px;
-    }
-}

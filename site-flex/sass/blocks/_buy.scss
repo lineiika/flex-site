@@ -1,41 +1,57 @@
 .buy {
     background: #FF9C7D;
     }
+
+.buy .container {
+  text-align: center;
+}
+.buy h2 {
+  padding: 161px 249px 29px 249px ;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
     
-    .buy h2 {
-      padding: 161px 253px 29px 253px ;
-      font-size: 65px;
-      line-height: 75px;
-      text-align: center;
+.buy p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 0px 54px 0px;
+    
+}
+    
+.buy button {
+  margin:0 0px 121px 0px;
+  background-color: #000000;
+  border: #000000;
+}
+@media (max-width: 1200px) {
+  .buy h2 {
+    padding: 50px 0px 29px 0px ;
     }
-    
-    .buy p {
-      font-size: 20px;
-      line-height: 30px;
-      text-align: center;
-      padding: 0 426px 54px 426px;
-    
+  .buy p {
+    padding: 0 0px 54px 0px;
+         
     }
-    
-    .buy button {
-      margin:0 565px 121px 565px;
-      background-color: #000000;
-      border: #000000;
+  .buy button {
+    margin:0 0px 50px 0px;
+    text-align: center;
     }
-    @media (max-width: 768px) {
-      .buy .container {
-        text-align: center;
-      }
-      .buy h2 {
-        padding: 50px 0px 29px 0px ;
-        font-size: 55px;
-       line-height: 65px;
-      }
-      .buy p {
-        padding: 0 0px 54px 0px;
+}
+   
+@media (max-width: 768px) {
+  .buy h2 {
+    width: auto;
+    padding: 50px 0px 29px 0px ;
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .buy p {
+    padding: 0 0px 54px 0px;
       
-      }
-      .buy button {
-        margin:0 0px 50px 0px;
-      }
-    }
+  }
+  .buy button {
+    margin:0 0px 50px 0px;
+  }
+}
+    

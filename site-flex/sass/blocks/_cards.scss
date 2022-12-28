@@ -36,7 +36,11 @@
   .padding-bottom {
     padding-bottom: 57px;
   }
-
+  @media (max-width: 991px){
+    .container {
+      max-width: none;
+  }
+}
   @media (max-width: 768px) {
     .cards:nth-child(1n) {
       padding-left: 0px;

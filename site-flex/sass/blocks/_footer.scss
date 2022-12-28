@@ -26,7 +26,7 @@
   }
   
   .footer-nav-content a {
-    font-family: 'Graphik-Semibold';
+    font-family: $font-family;
     font-size: 20px;
     line-height: 30px;
     margin-left: 20px;
@@ -90,7 +90,115 @@
     border-top: 1px solid black;
     margin-bottom: 48px;
   }
+
+  @media (max-width: 1200px) {
+    .footer-nav-content h4 {
+      margin: 50px 0 28px 20px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .footer-nav-main {
+      margin-left: 50px;
+      flex-wrap: wrap;
+    }
+    .footer-nav{
+      margin-top: 50px;
+    }
+    .footer-list li {
+      width: auto;
+      font-size: 14px;
+    }
+    .footer-list_width {
+      width: 130px;
+    }
+    .footer-nav:first-of-type {
+      margin-left: 0px;
+    }
+    .small-container {
+      width: auto;
+      margin: 0 auto;
+    }
+    .footer-bottom {
+      justify-content: space-between;
+    }
+    
+  }
+
+   @media (max-width: 768px) {
+    .footer-nav-content h4 {
+      margin: 50px 0 28px 20px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .footer {
+      flex-direction: column;
+    }
+
+    .footer-nav-main {
+      
+      flex-wrap: wrap;
+    }
+    .footer-nav{
+      margin-top: 50px;
+    }
+    .footer-list li {
+      width: auto;
+      font-size: 14px;
+    }
+    .footer-list_width {
+      width: 130px;
+    }
+    .footer-nav:first-of-type {
+      margin-left: 0px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+    }
+
+    .small-container {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-nav-content h4 {
+      margin: 50px 0 28px 20px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .footer {
+      flex-direction: column;
+    }
+
+    .footer-nav-main {
+      
+      flex-wrap: wrap;
+    }
+    .footer-nav{
+      margin-top: 50px;
+    }
+    .footer-list li {
+      width: auto;
+      font-size: 14px;
+    }
+    .footer-list_width {
+      width: 130px;
+    }
+    .footer-nav:first-of-type {
+      margin-left: 0px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+    }
+
+    .small-container {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
   
   
+
   
   

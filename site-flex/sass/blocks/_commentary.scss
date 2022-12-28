@@ -16,7 +16,18 @@
   .commentary-photo {
     padding: 58px 0 105px 85px;
   }
-
+  @media (max-width: 991px) {
+    .commentary {
+      margin-top: 50px;
+    }
+    .commentary-photo {
+      padding: 58px 0 105px 0px;
+      text-align: center;
+    }
+    .commentary-text img {
+    padding-bottom: 50px;
+  }
+}
   @media (max-width: 768px) {
     .commentary {
       margin-top: 50px;
@@ -29,3 +40,4 @@
       text-align: center;
     }
   }
+  

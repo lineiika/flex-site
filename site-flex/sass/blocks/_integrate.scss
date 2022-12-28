@@ -27,7 +27,34 @@
   .content-integrate button {
     font-size: 16px;
     line-height: 60px;
-    margin: 32px 548px 160px 548px;
+    margin: 32px 0px 160px 525px;
+  }
+  @media (max-width: 1200px) {
+    .content-integrate img {
+      width: 100%;
+      margin-left: auto;
+    }
+    .content-integrate {
+      display: flex;
+      flex-direction: column;
+    }
+    .content-integrate h2 {
+      width: auto;
+      text-align: center;
+      margin: 50px 0px 0 0px;
+    }
+    
+    .content-integrate p {
+      width: auto;
+      text-align: center;
+      margin: 25px 0px 25px 0px;
+    }
+
+    .content-integrate button {
+      font-size: 16px;
+      line-height: 60px;
+      margin: 32px 0 100px 0;
+    }
   }
   @media (max-width: 768px) {
     .content-integrate img {
@@ -56,3 +83,4 @@
       margin: 32px 0 50px 0;
     }
   }
+  

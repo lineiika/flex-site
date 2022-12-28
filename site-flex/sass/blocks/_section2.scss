@@ -13,7 +13,17 @@
     justify-content: space-around;
     padding-bottom: 95px;
   }
-  
+  @media (max-width: 1200px){
+    .company-text h2 {
+      width: auto;
+      margin: 0px;
+    
+    }
+    .company-logo {
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  }
   @media (max-width: 768px){
     .company-text h2 {
       width: auto;
@@ -25,4 +35,5 @@
       gap: 12px;
     }
   }
+ 
  

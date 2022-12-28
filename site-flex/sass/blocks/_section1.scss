@@ -40,8 +40,8 @@
     line-height: 60px;
   }
   
-  //   Tablet
-@media (max-width: 768px) {
+// Desktop 
+@media (max-width: 1200px) {
   .section1 {
     display: flex;
     flex-direction: column-reverse;
@@ -49,12 +49,11 @@
   .content {
     text-align: center;
   }
+  .photo-recources img {
+    width: 100%;
+  }
   .content-text {
     width: auto;
     text-align: left;
   }
-  .photo-recources img {
-    width: 100%;
-  }
-
 }

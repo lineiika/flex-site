@@ -29,6 +29,25 @@
     line-height: 25px;
     letter-spacing: 0.75px;
   }
+  @media (max-width: 1200px) {
+    .managment-content h4 {
+      padding-right: 10px;
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .managment-content img {
+      padding: 89px 25px 84px 0;
+    }
+    .managment-img-content {
+      padding: 0 15px 0 15px;
+    }
+    
+  }
+  @media (max-width: 991px) {
+    .managment-content h4 {
+      padding-top: 0px;
+  }
+}
 
   @media (max-width: 768px) {
     .managment .container {
@@ -49,14 +68,16 @@
      flex-direction: column-reverse;
     }
     .managment-content img {
-      padding: 89px 0px 84px 0;
+      padding: 89px 0px 84px 0px;
     }
 
     .managment-content h4 {
       border-right: none;
       text-align: center;
+      padding-top: 47px;
     }
     .managment-company {
       padding-top: 0px;
     }
   }
+ 
